@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="windows">
+      <UniqueIdentifier>{512aae06-561d-495e-bbaf-37ad1383517c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="export_header">
+      <UniqueIdentifier>{79a1ab1f-31bb-409d-9b3e-fba04d6c290f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\demangle.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\flags.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\logging.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raw_logging.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\signalhandler.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\stacktrace.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\symbolize.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\utilities.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vlog_is_on.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\windows\port.cc">
+      <Filter>windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\demangle.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\stacktrace.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\symbolize.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utilities.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\windows\dirent.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\windows\port.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\glog\export.h">
+      <Filter>export_header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\glog\flags.h">
+      <Filter>export_header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\glog\log_severity.h">
+      <Filter>export_header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\glog\logging.h">
+      <Filter>export_header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\glog\platform.h">
+      <Filter>export_header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\glog\raw_logging.h">
+      <Filter>export_header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\glog\stl_logging.h">
+      <Filter>export_header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\glog\types.h">
+      <Filter>export_header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\glog\vlog_is_on.h">
+      <Filter>export_header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

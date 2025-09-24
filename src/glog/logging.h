@@ -52,6 +52,10 @@
 #include <utility>
 #include <vector>
 
+#ifndef GLOG_USE_GLOG_EXPORT
+#define GLOG_USE_GLOG_EXPORT
+#endif
+
 #if defined(GLOG_USE_GLOG_EXPORT)
 #  include "glog/export.h"
 #endif
